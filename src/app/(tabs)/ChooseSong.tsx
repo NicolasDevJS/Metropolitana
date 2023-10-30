@@ -26,7 +26,6 @@ export default function ChooseSong() {
         <Text style={{ color: 'white' }}>Pedir Música</Text>
       </TouchableOpacity>
       <TouchableOpacity  style={styles.buttonMenu} >
-
               </TouchableOpacity>
     </View>
   );

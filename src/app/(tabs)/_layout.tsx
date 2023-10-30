@@ -1,11 +1,14 @@
 import { Drawer } from 'expo-router/drawer';
 import React from 'react';
-import { AntDesign, Entypo, FontAwesome, MaterialCommunityIcons, MaterialIcons } from '@expo/vector-icons'
-
+import {Entypo, MaterialCommunityIcons, MaterialIcons } from '@expo/vector-icons'
+import { View, StyleSheet, ImageBackground, Image, Text, TouchableOpacity, Button } from 'react-native';
 
 export default function Layout(){
     return(
-        <Drawer screenOptions={{title: ' '}}>
+        <Drawer 
+                screenOptions={{title: ' '}}
+
+        >
             <Drawer.Screen 
                 name="index"
                 options={{
@@ -61,7 +64,6 @@ export default function Layout(){
                         <MaterialIcons name="radio" size={30} color="white" />
                       )
                 }}
-
             />
                 <Drawer.Screen
                 name="SleepTimer"
